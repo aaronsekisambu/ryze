@@ -1,0 +1,113 @@
+.accumulate {
+	/* Accumulate Bitcoin While you Sleep */
+	font-family: Inter;
+	font-style: bolder;
+	font-weight: 800;
+	font-size: 60.04px;
+	text-align: center;
+	letter-spacing: 1.2px;
+	color: #494c55;
+}
+
+.animate-deposit {
+	opacity: 0;
+	color: #494C55 !important;
+	letter-spacing: 1.2px;
+	font-size: 18px;
+}
+
+.accumulate-mobile {
+	font-size: 30.04px;
+	font-family: Inter;
+	font-style: bolder;
+	font-weight: 800;
+	font-size: 60.04px;
+	text-align: center;
+	letter-spacing: 1.2px;
+	color: #494c55;
+}
+
+.change-word {
+	background: linear-gradient(180.96deg,
+			#7E1DEB -52.24%,
+			#D28EFB -13.86%,
+			#EE7ADD 46.38%,
+			#7E1DEB 72.82%,
+			#FF35E3 94.89%,
+		);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.custom-btn2 {
+	color: white;
+	border: none;
+	background: linear-gradient(213.5deg, #ee7add 29.4%, #881deb 118.81%);
+	border-radius: 7.53974px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 13.404px;
+	line-height: 16px;
+	text-align: center;
+	letter-spacing: 1.0053px;
+	width: 139.07px;
+	height: 49.43px;
+}
+
+.input1 {
+	background: rgba(229, 229, 229, 0.19);
+	backdrop-filter: blur(3.35099px);
+	border-radius: 11.7285px;
+	height: 65.86px !important;
+	width: 506px !important;
+	font-size: 15.0795px;
+	width: max-content;
+}
+
+.input-mobile {
+	background: rgba(194, 194, 194, 0.13);
+	backdrop-filter: blur(3.35099px);
+	border-radius: 7.7285px;
+	font-size: 17.404px;
+	margin: 0 auto;
+	padding: .5rem .5rem .7rem !important;
+}
+
+.input1-a {
+	height: 100%;
+	margin: 0px 5px;
+	font-size: 15.0795px;
+	box-sizing: border-box;
+	border: 0px solid red;
+	background-color: transparent;
+	color: #000;
+}
+
+.input1-a:focus {
+	outline: none;
+}
+
+.input1-a:active {
+	border: 0px solid red;
+}
+
+// @media (max-width: 400px) {
+// 	.custom-btn2input {
+// 		padding: 5px;
+// 		width: 80px;
+// 		font-size: 10px;
+// 	}
+// }
+
+// @media (max-width: 768px) {
+// 	.input1-a {
+// 		text-align: left;
+// 	}
+// }
+
+// @media (max-width: 991px) {
+// 	.input1-a.input1-atop {
+// 		text-align: center;
+// 	}
+// }

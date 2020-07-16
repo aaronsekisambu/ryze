@@ -1,0 +1,20 @@
+.rounded-cir1 {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+        /*this is your grey background*/
+        linear-gradient(to right, #EE7ADD, #881DEB) border-box;
+    color: #494C55;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 12px;
+    border-radius: 50px;
+    font-size: 8px;
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    border-radius: 200px;
+    margin-top: 3px
+}
+
+.date-number {
+    font-size: 16px;
+}

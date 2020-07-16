@@ -1,0 +1,47 @@
+@import '../../Components/Home/home.scss';
+@import '../../Components/Navigation/navigation.scss';
+@import '../../Components/Accumulate/accumulate.scss';
+@import '../../Components/Balance/balance.scss';
+@import '../../Components/Automatic/automatic.scss';
+@import '../../Components/Deposit/deposit.scss';
+@import '../../Components/Gold/gold.scss';
+@import '../../Components/Access/access.scss';
+@import '../../Components//Footer/footer.scss';
+@import '../../Components/Performance/performance.scss';
+@import '../../Components/Control/control.scss';
+// @import './mediaQueries.scss';
+
+body {
+    margin: 0;
+    // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    //     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    //     sans-serif;
+    font-family: Inter;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+html {
+    width: fit-content;
+}
+
+// body {
+//     font-family: 'Quicksand', sans-serif;
+//     font-weight: 300;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//     font-weight: 500;
+// }

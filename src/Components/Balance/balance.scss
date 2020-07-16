@@ -1,0 +1,113 @@
+.cutom-card-1 {
+    background: linear-gradient(256.26deg,
+            #ebe4f4 -52.24%,
+            #fc6bff -13.86%,
+            #be6cff 46.38%,
+            #881deb 72.82%,
+            #682ab7 94.89%,
+            #5b19d5 130.05%);
+    mix-blend-mode: normal;
+    border-radius: 40px;
+    border: none;
+}
+
+.custom-btn3 {
+    background: #eea1ff;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    font-size: 15.404px;
+}
+
+.custom-btn4 {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.custom-btn4:hover {
+    background: #eea1ff;
+    border-radius: 20px;
+    border-color: none;
+}
+
+.custom-btn4.focus,
+.custom-btn4:focus {
+    color: #fff;
+    background: #f7d4ff5b;
+    border-color: none;
+    border-radius: 20px;
+}
+
+.custom-btn4:not(:disabled):not(.disabled).active,
+.custom-btn4:not(:disabled):not(.disabled):active,
+.show>.custom-btn.dropdown-toggle {
+    color: #fff;
+    background: #f7d4ff5b;
+    border-color: #c191ee;
+    border-radius: 20px;
+}
+
+.custom-btn4:not(:disabled):not(.disabled).active:focus,
+.custom-btn4:not(:disabled):not(.disabled):active:focus,
+.show>.custom-btn.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0rem rgba(173, 99, 241, 0);
+    border-radius: 20px;
+}
+
+.firstbtn {
+    border: none;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.custom-btn5 {
+    color: white;
+    padding: 12px 18px;
+    font-size: small;
+    // width: 150px;
+    background: rgba(229, 229, 229, 0.33);
+    border: 0.858824px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 24.0471px;
+}
+
+.custombtn {
+    background: rgba(229, 229, 229, 0.17);
+    mix-blend-mode: normal;
+    border: 1.85px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 27.4755px;
+    font-size: 13px;
+    // font-weight: bold;
+    padding: 12px 16px;
+    // width: 140px;
+}
+
+.stackingsats {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stackingtext {
+    text-align: center;
+}
+
+@media (max-width:350px) {
+    .custombtn {
+        font-size: 9px;
+        font-weight: bold;
+        padding: 12px 0px;
+        width: 110px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .firstbtn {
+        border: none;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+}

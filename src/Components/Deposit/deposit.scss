@@ -1,0 +1,115 @@
+.featurespara small {
+    font-size: 18px;
+    line-height: 35px;
+    color: #494C55;
+}
+
+.custom-btn-category {
+    padding: 1rem !important;
+    background: linear-gradient(180deg, rgba(255, 53, 226, 0.15) 0%, rgba(136, 29, 235, 0.15) 100%);
+}
+
+
+#depositmobile {
+    background: linear-gradient(265.96deg, #EBE4F4 -52.24%, #FC6BFF -13.86%, #BE6CFF 46.38%, #881DEB 72.82%, #682AB7 94.89%, #5B19D5 130.05%);
+    mix-blend-mode: normal;
+    border-radius: 30px;
+    display: none;
+    padding: 0;
+    z-index: -1;
+    position: relative;
+}
+
+.zee-fee {
+    background: linear-gradient(202.69deg, #FD8BFF 25.26%, #A511FF 108.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.depositmobile {
+    display: none;
+}
+
+.deposit {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.input2 {
+    border: none;
+    border-bottom: 2px solid #c1c3c5;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    color: #c1c3c5;
+    background-color: transparent;
+    width: 50%;
+
+    &::placeholder {
+        color: #E5E5E5;
+        font-size: 85.44px;
+    }
+}
+
+.input2:focus {
+    outline: none;
+}
+
+.invest {
+    font-size: 38.85px;
+}
+
+.custom-monthly:hover {
+    background: #eea1ff;
+    border-radius: 6px;
+    border-color: none;
+}
+
+.custom-card-2 {
+    box-shadow: 0 1rem 3rem rgba(212, 83, 255, 0.25) !important;
+    border: none !important;
+    border-radius: 30px;
+}
+
+#deposit {
+    padding: 50px;
+}
+
+
+@media (max-width: 400px) {
+    #depositmobile {
+        display: block;
+    }
+
+    #deposit {
+        padding-top: 0;
+    }
+
+    .depositmobile {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .featurespara small {
+        font-size: 15.5px;
+        line-height: 35px;
+        color: #494C55;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .deposit {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #deposit {
+        padding: 30px 0;
+    }
+}

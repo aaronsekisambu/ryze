@@ -1,0 +1,56 @@
+.custom-btn01 {
+    border-radius: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 7px 27px;
+    font-size: 13.2639px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.994796px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .5);
+    margin-top: -2px;
+    position: relative;
+    border: 1px solid transparent;
+    background: #ffffff;
+    background-clip: padding-box;
+
+    &::after {
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        background: linear-gradient(45deg, #EE7ADD, #881DEB);
+        content: '';
+        z-index: -1;
+        border-radius: 100px;
+    }
+
+}
+
+.stayincontrol h2 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #494C55;
+}
+
+
+@media (max-width: 768px) {
+
+    .stayincontrol h2 {
+        font-size: 35px;
+        line-height: 40px;
+        color: #494C55;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+    .stayincontrol {
+        padding: 0 280px;
+    }
+
+}
