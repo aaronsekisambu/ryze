@@ -103,21 +103,21 @@ const Deposit = () => {
 														<div className="btn-group btn-group-sm py-2">
 															<button
 																type="button"
-																className="btn custom-btn-category p-2  ml-1 text-dark border"
+																className="btn custom-btn-category p-2  custom-weekly ml-1 text-dark"
 																style={{ color: '#494C55' }}
 															>
 																Weekly
 															</button>
 															<button
 																type="button"
-																className="btn btn-outline-light text-dark  custom-btn4 custom-btn6 border"
+																className="btn btn-outline-light text-dark  custom-bi-weekly custom-btn4 custom-btn6"
 																style={{ color: '#494C55' }}
 															>
 																Bi-Weekly
 															</button>
 															<button
 																type="button"
-																className="btn btn-outline-light text-dark mr-1 custom-monthly px-2 custom-btn6 border"
+																className="btn btn-outline-light text-dark mr-1 custom-monthly px-2 custom-btn6"
 																style={{ padding: '0', color: '#494C55', MozBorderRadiusTopright: "20px !important" }}
 															>
 																Monthly

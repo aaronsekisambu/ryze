@@ -9,6 +9,32 @@
 	color: #494c55;
 }
 
+.introducing {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	text-transform: uppercase;
+	line-height: 129.52%;
+	text-align: center;
+	margin-top: 7rem;
+	letter-spacing: 2.08214px;
+	background: linear-gradient(180.96deg,
+			#ff35e173 40%,
+			#881DEB 87%,
+		);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.animate-deposit-mobile {
+	color: #494C55 !important;
+	letter-spacing: 1.2px;
+	line-height: 1.5;
+	padding: 1rem ;
+	font-size: 24px;
+}
+
 .animate-deposit {
 	opacity: 0;
 	color: #494C55 !important;

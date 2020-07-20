@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react';
 import graph2 from '../../Assets/img/graph2.svg';
 import exit from '../../Assets/img/exit.svg';
+import card from '../../Assets/img/card.svg';
+import money from '../../Assets/img/money.svg';
+import padlock from '../../Assets/img/padlock.svg';
 
 const Performance = () => {
 	return (
@@ -31,7 +34,7 @@ const Performance = () => {
 											style={{
 												fontSize: '16px',
 												fontWeight: 'bold',
-												padding: '1.25rem 1.25rem 0',
+												padding: '1.25rem .5rem 0',
 											}}
 										>
 											Activity
@@ -52,7 +55,7 @@ const Performance = () => {
 												<span className="date-number">28</span>
 											</div>
 										</div>
-										<div className="col-lg-8 col-sm-7 col-5 ">
+										<div className="col-lg-8 col-sm-7 col-5  pt-1">
 											<div
 												style={{
 													textAlign: 'left',
@@ -62,8 +65,10 @@ const Performance = () => {
 													transform: 'translateY(-50%)',
 												}}
 											>
-												<strong>Brought</strong>
-												<br />
+												<div className="d-flex flex-row">
+													<strong>Brought</strong>
+													<img src={card} alt="" className="card-img" />
+												</div>
 												<small
 													className="text-secondary"
 													style={{
@@ -106,7 +111,7 @@ const Performance = () => {
 												<span className="date-number">29</span>
 											</div>
 										</div>
-										<div className="col-lg-8 col-sm-7 col-5">
+										<div className="col-lg-8 col-sm-7 col-5 pt-1">
 											<div
 												style={{
 													textAlign: 'left',
@@ -116,8 +121,10 @@ const Performance = () => {
 													transform: 'translateY(-50%)',
 												}}
 											>
-												<strong>Withdrawal</strong>
-												<br />
+												<div className="d-flex flex-row">
+													<strong>Withdrawal</strong>
+													<img src={padlock} alt="" className="card-img" />
+												</div>
 												<small
 													className="text-secondary"
 													style={{
@@ -169,9 +176,11 @@ const Performance = () => {
 													top: '50%',
 													transform: 'translateY(-50%)',
 												}}
-											>
-												<strong>Weekly Deposit</strong>
-												<br />
+											>	<div className="d-flex flex-row">
+													<strong>Weekly Deposit</strong>
+													<img src={money} alt="" className="card-img" />
+												</div>
+
 												<small
 													className="text-secondary"
 													style={{
