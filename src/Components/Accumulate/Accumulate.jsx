@@ -13,7 +13,7 @@ const Accumulate = () => {
 	return (
 		<Fragment>
 			<section>
-				<div className="container text-center my-5">
+				<div className={`container text-center my-5`}>
 					{width <= 768 ? <div className="introducing">Introducing Ryze</div> : ''}
 					<div
 						className="h3 accumulate py-3"
@@ -29,17 +29,20 @@ const Accumulate = () => {
 							<ReactTypingEffect text={['Sleep', 'Eat', 'Play', 'Relax']} speed={200} typingDelay={200} />
 						</span>
 					</div>
-					<h4 style={{ marginTop: '10px', fontWeight: 400, fontSize: width <= 768 ? '24px' : 18 }}>
-						<small
-							ref={(el) => (deposit = el)}
-							className={width <= 768 ? 'animate-deposit-mobile' : 'animate-deposit'}
-						>
-							Deposit every week, month or paycheck and {width <= 768 ? <br /> : ''}
+					<small
+						ref={(el) => (deposit = el)}
+						className={width <= 768 ? 'animate-deposit-mobile' : 'animate-deposit'}
+						style={{
+							marginTop: `${width <= 768 ? '30px' : '10px'}`,
+							fontWeight: 400,
+							fontSize: width <= 768 ? '22px' : 18,
+						}}
+					>
+						<p className="px-5 my-5">Deposit every week, month or paycheck and {width <= 768 ? <br /> : ''}
 							<strong> Ryze </strong> will buy the dip for you automatically.
-							<br />
-							Ryze helps you {width <= 768 ? <br /> : ''} stack sats and build your Bitcoin savings.
-						</small>
-					</h4>
+						<br />
+						Ryze helps you stack sats and build your Bitcoin savings.</p>
+					</small>
 					<div className="row justify-content-center" style={{ marginTop: '60px' }}>
 						<div className={`row ${width <= 576 ? '' : 'input1 justify-content-between'}`}>
 							<div className={` py-2  ${width <= 576 ? 'input-mobile mb-3' : ''}`}>

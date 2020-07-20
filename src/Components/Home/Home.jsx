@@ -9,14 +9,16 @@ import Performance from '../Performance/Performance';
 import Access from '../Access/Access';
 import { Footer } from '../Footer/Footer';
 import Phones from '../Phones/Phones';
+import { useWindowSize } from '../../Helpers/helper';
 
 const Home = () => {
+	const [width, height] = useWindowSize();
 	return (
 		<Fragment>
 			<Accumulate />
 			{/* <Balance /> */}
-			<Phones />
-			<Automatic/>
+			{width <= 768 ? '' : <Phones />}
+			<Automatic />
 			<Deposit />
 			<Gold />
 			<Control />

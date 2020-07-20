@@ -11,11 +11,11 @@ const Automatic = () => {
 		<Fragment>
 			<section
 				className={`${width <= 576 ? 'gradient-back-mobile' : 'gradient-back pb-5'} pt-5`}
-				style={{ overflowX: 'hidden', marginTop: '-12rem' }}
+				style={{ overflowX: 'hidden', marginTop: width <= 786 ? '' : '-12rem' }}
 			>
 				<div className="container-fluid">
 					<div className="text-center" style={{ display: width <= 576 ? 'block' : 'none' }}>
-						<img src={bitcoinLogo} alt="" className="shadow-lg"/>
+						<img src={bitcoinLogo} alt="" className="shadow-lg" />
 						<h3 className="mt-3 text-light buy" style={{ fontSize: '30px', fontWeight: '350' }}>
 							Buy the dip,
 						</h3>
@@ -69,7 +69,7 @@ const Automatic = () => {
 								<strong> $5,205.</strong>
 							</h4>
 							<div className={`my-4 ${width <= 576 ? 'd-flex flex-row justify-content-center' : ''} `}>
-								<button className="btn btn-outline-warning custom-btn5" style={{ width: "146px"}}>
+								<button className="btn btn-outline-warning custom-btn5" style={{ width: '146px' }}>
 									Learn More
 								</button>
 							</div>
