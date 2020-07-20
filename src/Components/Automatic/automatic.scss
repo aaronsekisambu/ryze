@@ -5,12 +5,33 @@
 }
 
 
+.buy-top {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    margin-top: -10px;
+}
+
+.buy-big {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    margin-top: -10px;
+    font-weight: bolder;
+}
+
 .buy {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 39px;
+    font-size: 42px;
+    margin-top: -10px;
+    font-weight: bolder;
+    display: block
 }
+
 
 .custom-btn5 {
     color: white;
@@ -24,6 +45,30 @@
 
 .buy-dip-mobile {
     display: none;
+    font-size: 30px;
+}
+
+.performance-mobile {
+    display: none;
+    width: 100%;
+}
+
+.performance {
+    display: block;
+    height: fit-content;
+}
+
+.stack-stats {
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.stats-tats-mobile {
+    margin: .8rem auto;
+    padding-top: 4.5rem;
+    font-size: 25px;
 }
 
 @media (max-width: 768px) {
@@ -33,6 +78,47 @@
     }
 
     .buy-dip-mobile {
+        display: block;
+        padding: 3rem 0 0;
+    }
+
+    .buy-big {
+        font-size: 55px;
+        padding-bottom: 3.5rem;
+
+    }
+
+    .performance-mobile {
+        display: block;
+        margin-left: .5rem !important;
+    }
+
+    .performance {
         display: none;
+    }
+
+    .buy {
+        display: none;
+    }
+
+    .buy-top {
+        font-size: 45px;
+        padding: 1.5rem 0 0;
+
+    }
+
+    .shadow-lg {
+        width: 15%
+    }
+
+    .stats-tats-mobile {
+        margin: .8rem auto;
+        padding: 2rem;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .stack-stats {
+        margin-top: .2rem;
     }
 }

@@ -11,49 +11,27 @@ const Automatic = () => {
 		<Fragment>
 			<section className="gradient-back-mobile pb-5">
 				<div className="container-fluid">
-					<div className="text-center buy-dip-mobile" style={{ display: width <= 576 ? 'block' : 'none' }}>
+					<div className="text-center buy-dip-mobile">
 						<img src={bitcoinLogo} alt="" className="shadow-lg" />
-						<h3 className="mt-3 text-light buy" style={{ fontSize: '30px', fontWeight: '350' }}>
-							Buy the dip,
-						</h3>
-						<h3
-							className="text-light buy"
-							style={{ fontSize: '42px', marginTop: '-10px', fontWeight: 'bolder' }}
-						>
+						<h3 className="mt-3 text-light buy-top">Buy the dip,</h3>
+						<h3 className="text-light buy-big">
 							<strong>Automatically</strong>
 						</h3>
 					</div>
-					<div className="row flex-wrap" style={{ width: width <= 576 ? '' : 'fit-content' }}>
-						<div className={`col-12 col-lg-7 col-sm-7 col-md-7 ${width <= 576 ? 'my-5' : ''}`}>
-							<img
-								src={width <= 576 ? performanceMobile : performance}
-								alt=""
-								style={{
-									width: width <= 576 ? '100%' : '',
-									height: width <= 576 ? '' : 'fit-content',
-								}}
-							/>
+					<div className="row flex-wrap">
+						<div className="col-12 col-lg-7 col-sm-7 col-md-7">
+							<img className="performance" src={performance} alt="" />
+							<img className="performance-mobile" src={performanceMobile} alt="" />
 						</div>
-						<div
-							className={`col-12 col-lg-5 col-sm-5 col-md-5 ${width <= 576 ? '' : 'my-4 w-50'}`}
-							style={{
-								paddingTop: `${width <= 576 ? '' : '4.5rem'}`,
-								fontSize: '25px',
-							}}
-						>
-							<div style={{ display: width >= 576 ? 'block' : 'none' }}>
-								<img src={bitcoinLogo} alt="" style={{ width: '55px' }} />
-								<div className="mt-3 text-light buy" style={{ fontWeight: 400 }}>
-									Buy the dip,
-								</div>
+						<div className="col-12 col-lg-5 col-sm-5 col-md-5 stats-tats-mobile">
+							<div>
+								<img src={bitcoinLogo} alt="" className="performance" />
+								<div className="mt-3 text-light buy">Buy the dip,</div>
 								<h3 className="text-light buy">
 									<strong>Automatically</strong>
 								</h3>
 							</div>
-							<h4
-								className={`${width <= 576 ? '' : 'mt-3'} text-light mr-5 pr-3`}
-								style={{ fontSize: '18px', lineHeight: '35px', fontWeight: 400 }}
-							>
+							<h4 className="text-light mr-5 pr-3 stack-stats">
 								Stack sats automatically when Bitcoin is on sale. Never worry about timing buys again.
 								Its like DCA, but <strong>smarter.</strong>
 							</h4>
