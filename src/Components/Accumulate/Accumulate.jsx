@@ -32,9 +32,9 @@ const Accumulate = () => {
 						</p>
 					</small>
 					<div className="row justify-content-center" style={{ marginTop: '60px' }}>
-						<div className={`row ${width <= 576 ? '' : 'input1 justify-content-between'}`}>
-							<div className={` py-2  ${width <= 576 ? 'input-mobile mb-3' : ''}`}>
-								<input type="text" className="input1-a input1-atop" placeholder="> request access " />
+						<div className="input1">
+							<div className="py-2 input-mobile">
+								<input type="text" className="input1-a" placeholder="> request access " />
 							</div>
 							<button className="btn btn-primary custom-btn2 mx-3 my-2">Join Now</button>
 						</div>

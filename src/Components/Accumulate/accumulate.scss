@@ -78,25 +78,26 @@
 	width: 506px !important;
 	font-size: 15.0795px;
 	width: max-content;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 }
 
-.input-mobile {
-	background: rgba(194, 194, 194, 0.13);
-	backdrop-filter: blur(3.35099px);
-	border-radius: 7.7285px;
-	font-size: 17.404px;
-	margin: 0 auto;
-	padding: .5rem .5rem .7rem !important;
-}
+
 
 .input1-a {
-	height: 100%;
+	// height: 100%;
 	margin: 0px 5px;
 	font-size: 15.0795px;
 	box-sizing: border-box;
 	border: 0px solid red;
 	background-color: transparent;
 	color: #000;
+
+	&::placeholder {
+		font-size: 24px;
+	}
 }
 
 .input1-a:focus {
@@ -107,15 +108,7 @@
 	border: 0px solid red;
 }
 
-// @media (max-width: 400px) {
-// 	.custom-btn2input {
-// 		padding: 5px;
-// 		width: 80px;
-// 		font-size: 10px;
-// 	}
-// }
-
-.deposit-every-week{
+.deposit-every-week {
 	font-size: 18px;
 	line-height: 2;
 }
@@ -137,6 +130,7 @@
 	.accumulate {
 		font-size: 100.04px;
 	}
+
 	.animate-deposit {
 		color: #494C55 !important;
 		letter-spacing: 1.2px;
@@ -144,14 +138,42 @@
 		font-size: 18px;
 		margin-top: 30px;
 	}
+
 	.deposit-every-week {
-		font-size: 24px;
+		font-size: 26px;
 		line-height: 1.5;
 	}
-}
 
-// @media (max-width: 991px) {
-// 	.input1-a.input1-atop {
-// 		text-align: center;
-// 	}
-// }
+	.input1 {
+		background: none;
+		flex-direction: column;
+		align-items: center;
+		height: auto !important;
+	}
+
+	.input-mobile {
+		background: rgba(194, 194, 194, 0.13);
+		backdrop-filter: blur(3.35099px);
+		border-radius: 7.7285px;
+		font-size: 17.404px;
+		margin: 0 auto;
+		padding: .5rem .5rem .7rem !important;
+	}
+
+	.input1-a {
+		padding: 1rem 1rem 1rem;
+		width: 306px !important;
+		text-align: center !important;
+		font-size: 26px;
+
+		&::placeholder {
+			font-size: 24px;
+		}
+	}
+	.custom-btn2 {
+		width: 339.07px;
+		font-size: 28px;
+		height: 73.43px;
+		margin: 1rem  0 15rem !important;
+	}
+}
