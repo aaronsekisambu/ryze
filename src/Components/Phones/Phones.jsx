@@ -6,8 +6,8 @@ const Phones = () => {
     return (
 		<Fragment>
 			<div
-				className="w-100 d-flex flex-row flex-nowrap justify-content-between"
-				style={{ overflowX: 'hidden', marginTop: '-15rem'  }}
+				className="w-100 d-flex flex-row flex-nowrap justify-content-between phone-mobile"
+				style={{ overflowX: 'hidden',  }}
 			>
 				<img src={phoneB} alt="" />
 				<img src={phoneA} alt="" />

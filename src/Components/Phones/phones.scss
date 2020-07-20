@@ -1,0 +1,12 @@
+.phone-mobile {
+    margin-top: -15rem;
+}
+
+
+@media (min-width: 768px) {
+    .phone-mobile {
+        display: none;
+        padding-top: 0;
+    }
+
+}
