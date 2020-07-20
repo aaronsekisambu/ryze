@@ -16,27 +16,22 @@ const Deposit = () => {
 			<section className={`${width <= 576 ? '' : 'pt-5 mx-3'} pb-5`}>
 				<div className="row" style={{ marginRight: '0', marginLeft: '0' }}>
 					<div className="col-lg-1"></div>
-					<div className="col-lg-5 " style={{ padding: '80px 0 0 0', overflowX: 'hidden' }}>
-						<div className={`${width <= 576 ? 'd-flex flex-column align-items-center' : ''}`}>
+					<div className="col-lg-5 " style={{ overflowX: 'hidden' }}>
+						<div className="mobile-flex">
 							<img src={clockLogo} alt="" width="60" />
 							<h3 className="mt-3 invest" style={{ paddingTop: '15px' }}>
 								<strong>Invest at your own pace.</strong>
 							</h3>
 							<h3 className="pb-3 invest">With a little as $10</h3>
 						</div>
-						{width <= 576 ? '' : <Features />}
+						<div className="features">
+							<Features />
+						</div>
 					</div>
 
 					<div className="col-lg-6">
-						<div className="div" id="deposit" style={{ margin: width <= 576 ? '1.5rem' : '' }}>
-							<div
-								className="container depositmobile"
-								style={{
-									position: 'relative',
-									height: '180px',
-									display: width <= 576 ? 'block' : 'none',
-								}}
-							>
+						<div className="div" id="deposit">
+							<div className="container deposit-mobile">
 								<div className="row" id="depositmobile" style={{ height: '240px' }}>
 									<div className="col-6 float-left">
 										<div className="float-left" style={{ padding: '30px 0 0 15px' }}>
@@ -67,7 +62,7 @@ const Deposit = () => {
 										<img src={exit} alt="" style={{ width: '7%', marginTop: '-30px' }} />
 									</div>
 									<div className="text-center">
-										<input type="text" className="input2"  placeholder="$25" />
+										<input type="text" className="input2" placeholder="$25" />
 										<p
 											className="pt-2"
 											style={{
@@ -118,7 +113,11 @@ const Deposit = () => {
 															<button
 																type="button"
 																className="btn btn-outline-light text-dark mr-1 custom-monthly px-2 custom-btn6"
-																style={{ padding: '0', color: '#494C55', MozBorderRadiusTopright: "20px !important" }}
+																style={{
+																	padding: '0',
+																	color: '#494C55',
+																	MozBorderRadiusTopright: '20px !important',
+																}}
 															>
 																Monthly
 															</button>
@@ -160,21 +159,8 @@ const Deposit = () => {
 														>
 															Chase Bank
 														</p>
-														{width <= 576 ? (
-															<small className="float-left zee-fee">Zee fee</small>
-														) : (
-															<p
-																style={{
-																	fontWeight: 600,
-																	color: '#ca44e9',
-																	textAlign: 'left',
-																	marginBottom: '0px',
-																	fontSize: '10px',
-																}}
-															>
-																**********1234
-															</p>
-														)}
+														<small className="float-left zee-fee">Zee fee</small>
+														<p className="card-1234">**********1234</p>
 													</div>
 												</div>
 												<div
@@ -217,7 +203,10 @@ const Deposit = () => {
 									</div>
 								</div>
 							</div>
-							{width <= 576 ? <Features /> : ''}
+							<div className="mobile-features">
+								{' '}
+								<Features />
+							</div>
 						</div>
 					</div>
 				</div>

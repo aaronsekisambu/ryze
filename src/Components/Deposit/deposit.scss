@@ -7,7 +7,7 @@
 .custom-btn-category {
     padding: 1rem !important;
     background: linear-gradient(180deg, rgba(255, 53, 226, 0.15) 0%, rgba(136, 29, 235, 0.15) 100%);
-    
+
 }
 
 
@@ -15,9 +15,9 @@
     background: linear-gradient(265.96deg, #EBE4F4 -52.24%, #FC6BFF -13.86%, #BE6CFF 46.38%, #881DEB 72.82%, #682AB7 94.89%, #5B19D5 130.05%);
     mix-blend-mode: normal;
     border-radius: 30px;
-    display: none;
+    // display: none;
     padding: 0;
-    z-index: -1;
+    // z-index: -1;
     position: relative;
 }
 
@@ -27,10 +27,13 @@
     -webkit-text-fill-color: transparent;
     font-weight: bolder;
     font-size: 12px;
+    display: none;
 }
 
-.depositmobile {
+.deposit-mobile {
     display: none;
+    position: relative;
+    height: 180px;
 }
 
 .deposit {
@@ -79,14 +82,35 @@
     padding: 50px;
 }
 
+.features {
+    display: block;
+}
+
+.mobile-features {
+    display: none;
+}
+
+.card-1234 {
+    display: block;
+    font-weight: 600;
+    color: #ca44e9;
+    text-align: left;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
 
 @media (max-width: 400px) {
     #depositmobile {
         display: block;
     }
 
+
+
+
     #deposit {
         padding-top: 0;
+        margin: 1.5rem;
     }
 
     .depositmobile {
@@ -103,6 +127,21 @@
 }
 
 @media (max-width: 768px) {
+    .features {
+        display: none;
+    }
+
+    .card-1234 {
+        display: none;
+    }
+
+    .zee-fee {
+        display: block;
+    }
+
+    .mobile-features {
+        display: block;
+    }
 
     .deposit {
         width: 100%;
@@ -112,5 +151,16 @@
 
     #deposit {
         padding: 30px 0;
+    }
+
+    .deposit-mobile {
+        display: block;
+    }
+
+    .mobile-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
     }
 }

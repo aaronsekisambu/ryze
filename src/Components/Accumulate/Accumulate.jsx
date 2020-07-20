@@ -34,7 +34,7 @@ const Accumulate = () => {
 					<div className="row justify-content-center" style={{ marginTop: '60px' }}>
 						<div className="input1">
 							<div className="py-2 input-mobile">
-								<input type="text" className="input1-a" placeholder="> request access " />
+								<input type="text" className="input1-top" placeholder="> request access " />
 							</div>
 							<button className="btn btn-primary custom-btn2 mx-3 my-2">Join Now</button>
 						</div>

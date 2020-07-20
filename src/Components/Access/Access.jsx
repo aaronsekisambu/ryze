@@ -62,7 +62,7 @@ const Access = () => {
 											</h4>
 											<br />
 											<div
-												className="input1 p-2"
+												className="input1-bottom p-2"
 												style={{ background: 'rgba(256, 256, 256, 0.2)' }}
 											>
 												<div className="row">

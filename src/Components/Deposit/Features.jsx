@@ -5,7 +5,7 @@ const Features = () => {
 	return (
 		<Fragment>
 			<div>
-				<div className="row mt-5">
+				<div className="row mt-3">
 					<div className="col-2  col-md-3 pt-1 col-lg-1">
 						<img src={upArrow} alt="" className="float-right pt-1" />
 					</div>
