@@ -16,16 +16,16 @@ const Accumulate = () => {
 				<div className={`container text-center my-5`}>
 					<div className="introducing">Introducing Ryze</div>
 					<div className="h3 accumulate py-3">
-						Accumulate <br className="break-mobile-one" /> Bitcoin <br className="break-web-one" /> While{' '}
-						<br className="break-mobile-one" /> you
+						Accumulate <br className="break-mobile" /> Bitcoin <br className="break-web" /> While{' '}
+						<br className="break-mobile" /> you
 						<span className="change-word">
 							{' '}
 							<ReactTypingEffect text={['Sleep', 'Eat', 'Play', 'Relax']} speed={200} typingDelay={200} />
 						</span>
 					</div>
 					<small ref={(el) => (deposit = el)}>
-						<p className="px-5 my-5">
-							Deposit every week, month or paycheck and {width <= 768 ? <br /> : ''}
+						<p className="px-5 my-5 deposit-every-week">
+							Deposit every week, month or paycheck and <br className="break-mobile" />
 							<strong> Ryze </strong> will buy the dip for you automatically.
 							<br />
 							Ryze helps you stack sats and build your Bitcoin savings.

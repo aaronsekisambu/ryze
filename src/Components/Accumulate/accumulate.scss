@@ -115,14 +115,10 @@
 // 	}
 // }
 
-.break-mobile-one {
-	display: none
+.deposit-every-week{
+	font-size: 18px;
+	line-height: 2;
 }
-
-.break-web-one {
-	display: block;
-}
-
 
 .animate-deposit {
 	opacity: 0;
@@ -141,20 +137,16 @@
 	.accumulate {
 		font-size: 100.04px;
 	}
-
-	.break-mobile-one {
-		display: block
-	}
-
-	.break-web-one {
-		display: none;
-	}
 	.animate-deposit {
 		color: #494C55 !important;
 		letter-spacing: 1.2px;
 		line-height: 1.5;
 		font-size: 18px;
 		margin-top: 30px;
+	}
+	.deposit-every-week {
+		font-size: 24px;
+		line-height: 1.5;
 	}
 }
 

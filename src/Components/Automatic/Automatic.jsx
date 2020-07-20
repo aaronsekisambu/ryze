@@ -9,12 +9,9 @@ const Automatic = () => {
 	const [width, height] = useWindowSize();
 	return (
 		<Fragment>
-			<section
-				className={`${width <= 576 ? 'gradient-back-mobile' : 'gradient-back pb-5'} pt-5`}
-				style={{ overflowX: 'hidden', marginTop: width <= 786 ? '' : '-12rem' }}
-			>
+			<section className="gradient-back-mobile pb-5">
 				<div className="container-fluid">
-					<div className="text-center" style={{ display: width <= 576 ? 'block' : 'none' }}>
+					<div className="text-center buy-dip-mobile" style={{ display: width <= 576 ? 'block' : 'none' }}>
 						<img src={bitcoinLogo} alt="" className="shadow-lg" />
 						<h3 className="mt-3 text-light buy" style={{ fontSize: '30px', fontWeight: '350' }}>
 							Buy the dip,

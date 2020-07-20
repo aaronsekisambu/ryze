@@ -1,9 +1,9 @@
-.gradient-back {
-    background: linear-gradient(157.43deg, #fd8bff 5.71%, #881deb 70.08%);
-}
 .gradient-back-mobile {
-    background: linear-gradient(270.8deg, #881DEB -43.04%, #FC6BFF 179.08%);
+    background: linear-gradient(157.43deg, #fd8bff 5.71%, #881deb 70.08%);
+    overflow: hidden;
+    padding-top: -12rem;
 }
+
 
 .buy {
     // font-family: "Inter";
@@ -21,4 +21,19 @@
     border: 0.858824px solid #ffffff;
     box-sizing: border-box;
     border-radius: 24.0471px;
+}
+
+.buy-dip-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .gradient-back-mobile {
+        background: linear-gradient(270.8deg, #881DEB -43.04%, #FC6BFF 179.08%);
+        padding-top: 2rem;
+    }
+
+    .buy-dip-mobile {
+        display: none;
+    }
 }
