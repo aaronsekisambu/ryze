@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import Accumulate from '../Accumulate/Accumulate';
 import Balance from '../Balance/Balance';
 import Automatic from '../Automatic/Automatic';
@@ -9,10 +9,19 @@ import Performance from '../Performance/Performance';
 import Access from '../Access/Access';
 import { Footer } from '../Footer/Footer';
 import Phones from '../Phones/Phones';
-import { useWindowSize } from '../../Helpers/helper';
+// import { useWindowSize } from '../../Helpers/helper';
 
 const Home = () => {
-	const [width, height] = useWindowSize();
+	// const [width, height] = useWindowSize();
+	const [width, setWidth] = useState(window.innerWidth);
+	useEffect(() => {
+		const handleResize = () => setWidth(window.innerWidth);
+
+		window.addEventListener('resize', handleResize);
+		return () => {
+			window.removeEventListener('resize', handleResize);
+		};
+	}, [width]);
 	return (
 		<Fragment>
 			<Accumulate />
