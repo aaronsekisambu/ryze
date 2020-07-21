@@ -4,11 +4,14 @@ import './app.scss';
 import Home from '../Components/Home/Home';
 import Navigation from '../Components/Navigation/Navigation';
 import { css } from '@emotion/core';
-import BarLoader from 'react-spinners/BarLoader';
+import BounceLoader from 'react-spinners/BounceLoader';
+
 import { TweenMax, Power3 } from 'gsap';
+import { useWindowSize } from '../Helpers/helper';
 
 function App() {
 	const [loading, setLoading] = useState(true);
+	const [width, height] = useWindowSize();
 	const [load, setLoad] = useState(true);
 	let site = useRef(null);
 	const override = css`
@@ -16,8 +19,8 @@ function App() {
 	`;
 	useEffect(() => {
 		setTimeout(() => {
-			setLoading(false);
-			setLoad(false);
+			setLoading(true);
+			setLoad(true);
 		}, 2000);
 		TweenMax.to(site, 2, { opacity: 1, ease: Power3.easeInOut, delay: 2 });
 	}, []);
@@ -32,7 +35,7 @@ function App() {
 				</BrowserRouter>
 			</div>
 			<div className="center-block" style={{ display: loading ? 'flex' : 'none' }}>
-				<BarLoader css={override} size={10} color={'#881DEB'} loading={load} />
+				<BounceLoader css={override} size={width <= 768 ? 20 : 50} color={'#881DEB'} loading={load} />
 			</div>
 		</Fragment>
 	);
