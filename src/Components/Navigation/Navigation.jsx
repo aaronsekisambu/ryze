@@ -12,10 +12,13 @@ const Navigation = () => {
 	return (
 		<Fragment>
 			<section>
-				<nav className="navbar navbar-expand-sm navbar-light sticky-top mt-5" style={{ backgroundColor: 'white' }}>
+				<nav
+					className="navbar navbar-expand-sm navbar-light sticky-top mt-5"
+					style={{ backgroundColor: 'white' }}
+				>
 					<div className="container-fluid mx-4">
 						<a className="navbar-brand" href="#">
-							<img src={logo} alt="Logo" style={{ width: '30px' }} />
+							<img src={logo} alt="Logo" className="ryze-logo" />
 						</a>
 						<button
 							className="navbar-toggler"
@@ -51,23 +54,15 @@ const Navigation = () => {
 										FAQs
 									</a>
 								</li>
-								{width <= 576 ? (
-									''
-								) : (
-									<li className="nav-item nav-item-pad">
-										<button type="button" className="btn btn-outline-primary custom-btn">
-											Join Now
-										</button>
-									</li>
-								)}
+								<li className="nav-item nav-item-pad join-now-web">
+									<button type="button" className="btn btn-outline-primary custom-btn">
+										Join Now
+									</button>
+								</li>
 							</ul>
-							{width <= 576 ? (
-								<button type="button" className="btn btn-outline-primary custom-btn">
-									Join Now
-								</button>
-							) : (
-								''
-							)}
+							<button type="button" className="btn btn-outline-primary join-now custom-btn">
+								Join Now
+							</button>
 						</div>
 					</div>
 				</nav>

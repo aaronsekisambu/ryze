@@ -129,7 +129,7 @@
 	}
 
 	.accumulate {
-		font-size: 100.04px;
+		font-size: 80.04px;
 	}
 
 	.animate-deposit {
@@ -176,5 +176,16 @@
 		font-size: 28px;
 		height: 73.43px;
 		margin: 1rem  0 15rem !important;
+	}
+}
+
+@media(max-width: 1024px) {
+	.accumulate {
+		font-size: 50.04px;
+	}
+} 
+@media(max-width: 2560px) {
+	.accumulate {
+		font-size: 100.04px;
 	}
 }

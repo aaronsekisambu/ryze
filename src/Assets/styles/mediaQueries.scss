@@ -6,16 +6,17 @@
     display: block;
 }
 
+.break-tabs {
+    display: none;
+}
+
+.break-XL {
+    display: none;
+}
+
+
 
 @media (max-width: 768px) {
-    .introducing {
-        display: block;
-    }
-
-    .accumulate {
-        font-size: 100.04px;
-    }
-
     .break-mobile {
         display: block
     }
@@ -23,4 +24,43 @@
     .break-web {
         display: none;
     }
+
+    .break-tabs {
+        display: none;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    .break-mobile {
+        display: none;
+    }
+
+    .break-web {
+        display: none;
+    }
+
+    .break-tabs {
+        display: block;
+    }
+
+}
+
+@media(max-width: 2560px) {
+    .break-mobile {
+        display: none;
+    }
+
+    .break-web {
+        display: none;
+    }
+
+    .break-tabs {
+        display: none;
+    }
+
+    .break-XL {
+        display: block;
+    }
+
 }
