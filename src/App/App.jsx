@@ -4,7 +4,7 @@ import './app.scss';
 import Home from '../Components/Home/Home';
 import Navigation from '../Components/Navigation/Navigation';
 import { css } from '@emotion/core';
-import HashLoader from 'react-spinners/HashLoader';
+import BarLoader from 'react-spinners/BarLoader';
 import { TweenMax, Power3 } from 'gsap';
 
 function App() {
@@ -32,7 +32,7 @@ function App() {
 				</BrowserRouter>
 			</div>
 			<div className="center-block" style={{ display: loading ? 'flex' : 'none' }}>
-				<HashLoader css={override} size={60} color={'#881DEB'} loading={load} />
+				<BarLoader css={override} size={10} color={'#881DEB'} loading={load} />
 			</div>
 		</Fragment>
 	);

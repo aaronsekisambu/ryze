@@ -98,6 +98,15 @@
     margin-bottom: 0px;
     font-size: 10px;
 }
+.deposit-mobile-section {
+    margin: 0 auto;
+}
+.mobile-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
 
 
 @media (max-width: 400px) {

@@ -11,7 +11,7 @@ export const Footer = () => {
 					<div className="container">
 						<a className="navbar-brand" href="#" style={{ fontSize: '16px' }}>
 							<img src={logoryze} alt="Logo" style={{ width: '20px' }} />
-							&nbsp;&nbsp;Ryze - Made with 🔥 in ATL
+							&nbsp;&nbsp;&nbsp;&nbsp;Ryze - Made with 🔥 in ATL
 						</a>
 
 						<ul className="navbar-nav">
@@ -105,7 +105,7 @@ export const Footer = () => {
 					<ul className="navbar-nav">
 						<li className="nav-item nav-item-pad">
 							<a className="navbar-brand made-with" href="#">
-								&nbsp;&nbsp;Ryze - Made with 🔥 in ATL
+								&nbsp;&nbsp;&nbsp;&nbsp;Ryze - Made with 🔥 in ATL
 							</a>
 						</li>
 					</ul>
