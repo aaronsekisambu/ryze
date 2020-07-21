@@ -56,7 +56,12 @@ body html {
 }
 
 html {
-    width: fit-content;
     background: white;
     overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    html {
+        width: fit-content;
+    }
 }
