@@ -24,7 +24,7 @@ const Accumulate = () => {
 						</span>
 					</div>
 					<small ref={(el) => (deposit = el)}>
-						<p className="px-5 my-5 deposit-every-week">
+						<p className="px-3 my-2 deposit-every-week">
 							Deposit every week, month or paycheck and <br className="break-mobile" />
 							<strong> Ryze </strong> will buy the dip for you automatically.
 							<br />
