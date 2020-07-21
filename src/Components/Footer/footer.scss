@@ -10,3 +10,33 @@
 .phone_footer {
     background: #FDFCFF;
 }
+
+.phone_footer-mobile {
+    display: none;
+}
+
+.phone_footer-web {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .phone_footer-mobile {
+        display: block;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        padding: 1rem;
+    }
+
+    .phone_footer-web {
+        display: none;
+    }
+
+    .made-with {
+        color: #494C55;
+        font-size: 23px;
+        padding: .5rem 0;
+    }
+
+}

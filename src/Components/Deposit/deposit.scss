@@ -118,15 +118,17 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .featurespara small {
-        font-size: 15.5px;
+        font-size: 18.5px;
         line-height: 35px;
         color: #494C55;
     }
-}
 
-@media (max-width: 768px) {
+    .btn-block {
+        margin: 0 !important;
+    }
+
     .features {
         display: none;
     }
@@ -141,6 +143,7 @@
 
     .mobile-features {
         display: block;
+        margin: 0 -5rem;
     }
 
     .deposit {
@@ -149,8 +152,15 @@
         margin: 0 auto;
     }
 
+    .mobile-version-deposit {
+        margin-top: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
+
     #deposit {
         padding: 30px 0;
+        margin: 0 5rem;
     }
 
     .deposit-mobile {
@@ -162,5 +172,17 @@
         flex-direction: column;
         align-items: center;
         margin-top: 3rem;
+
+        img {
+            width: 18%;
+        }
+    }
+
+    .features-img {
+        padding-top: 3rem !important;
+    }
+
+    .features-para {
+        padding-top: 2rem;
     }
 }

@@ -29,19 +29,54 @@
 
 }
 
+.wallet-img {
+    width: 70px;
+}
+
 .stayincontrol h2 {
     font-size: 50px;
-    line-height: 50px;
+    line-height: 1.8;
     color: #494C55;
+}
+
+.invest-in-bitcoin {
+    font-size: 18px;
+    line-height: 1.50;
+    color: #494C55;
+    font-weight: 400;
 }
 
 
 @media (max-width: 768px) {
+    .custom-btn01 {
+        background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+            linear-gradient(to right, #EE7ADD, #881DEB) border-box;
+        padding: 10px 30px;
+        font-size: 13.2639px;
+        font-size: 15px;
+        text-align: center;
+        letter-spacing: 0.994796px;
+        font-weight: 500;
+        color: rgba(0, 0, 0, .5);
+        border: 1px solid transparent;
+        border-radius: 200px;
+        margin-top: 3px
+    }
+
+    .invest-in-bitcoin {
+        font-size: 20px;
+        line-height: 1.8;
+        padding: 1rem;
+    }
 
     .stayincontrol h2 {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 45px;
+        line-height: 1.5;
         color: #494C55;
+    }
+
+    .wallet-img {
+        width: 100px;
     }
 
 }

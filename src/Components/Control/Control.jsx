@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import wallet from '../../Assets/img/wallet.png'
+import wallet from '../../Assets/img/wallet.png';
 
 const Control = () => {
 	return (
@@ -8,10 +8,11 @@ const Control = () => {
 				<div className="container text-center">
 					<div className="row" style={{ marginRight: 0, marginLeft: 0 }}>
 						<div className="col-md-12" style={{ padding: 0 }}>
-							<img src={wallet} alt="" width="70" />
+							<img src={wallet} alt="" className="wallet-img" />
 							<div className=" stayincontrol">
 								<h2 className="mt-3">
-									<strong style={{ fontWeight: 800 }}>Stay in control</strong> of your money
+									<strong style={{ fontWeight: 800 }}>Stay in control</strong> of{' '}
+									<b className="break-mobile" /> your money
 								</h2>
 							</div>
 							<h3 className="text-light"></h3>
@@ -20,15 +21,10 @@ const Control = () => {
 								<div className="col-md-8 col-sm-12">
 									<h4 className="mt-3">
 										<small
-											style={{
-												fontSize: '18px',
-												lineHeight: '150%',
-												color: '#494C55',
-												fontWeight: 400,
-											}}
+										className="invest-in-bitcoin"
 										>
-											Investing in Bitcfoin can be a rollercoaster. Let Ryze smooth the ride for
-											you by helping you accumulate Bitfcoin over time.
+											Investing in Bitcfoin can be a rollercoaster. <b className="break-mobile" /> Let Ryze smooth the ride for
+											you by helping you <b className="break-mobile" /> accumulate Bitfcoin over time.
 										</small>
 									</h4>
 								</div>

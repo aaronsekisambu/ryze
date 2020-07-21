@@ -6,7 +6,7 @@ export const Footer = () => {
 	const [width, height] = useWindowSize();
 	return (
 		<Fragment>
-			<section id="desktop-brand1 phone_footer" style={{ display: width >= 576 ? 'block' : 'none' }}>
+			<section id="desktop-brand1" className="phone_footer-web">
 				<nav className="navbar navbar-expand-sm navbar-light" style={{ backgroundColor: 'white' }}>
 					<div className="container">
 						<a className="navbar-brand" href="#" style={{ fontSize: '16px' }}>
@@ -46,7 +46,7 @@ export const Footer = () => {
 				</nav>
 			</section>
 
-			<section className="phone_footer" style={{ display: width <= 576 ? 'block' : 'none' }}>
+			<section className="phone_footer-mobile">
 				<nav
 					className="navbar navbar-expand-sm navbar-light justify-content-center"
 					style={{ backgroundColor: 'white' }}
@@ -61,7 +61,7 @@ export const Footer = () => {
 				</nav>
 			</section>
 
-			<section className="phone_footer" style={{ display: width <= 576 ? 'block' : 'none' }}>
+			<section className="phone_footer-mobile">
 				<nav
 					className="navbar navbar-expand-sm navbar-light justify-content-center"
 					style={{ backgroundColor: 'white' }}
@@ -97,14 +97,14 @@ export const Footer = () => {
 				</nav>
 			</section>
 
-			<section className="phone_footer" style={{ display: width <= 576 ? 'block' : 'none' }}>
+			<section className="phone_footer-mobile">
 				<nav
 					className="navbar navbar-expand-sm navbar-light justify-content-center"
 					style={{ backgroundColor: 'white' }}
 				>
 					<ul className="navbar-nav">
 						<li className="nav-item nav-item-pad">
-							<a className="navbar-brand" href="#" style={{ fontSize: '16px' }}>
+							<a className="navbar-brand made-with" href="#">
 								&nbsp;&nbsp;Ryze - Made with 🔥 in ATL
 							</a>
 						</li>

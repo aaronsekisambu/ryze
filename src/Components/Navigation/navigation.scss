@@ -66,3 +66,12 @@
 .show>.custom-btn.dropdown-toggle:focus {
     box-shadow: 0 0 0 0.2rem rgba(173, 99, 241, 0.5);
 }
+
+
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 3.5em;
+        height: 3.5em;
+    }
+}

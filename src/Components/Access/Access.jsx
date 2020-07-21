@@ -14,56 +14,40 @@ const Access = () => {
 						<div className="col-md-0 col-sm-0"></div>
 
 						<div className="col-md-12 col-sm-12">
-							<div className="card custom-card-2 gradient-back2" style={{ borderRadius: '18.3018px' }}>
+							<div className="card custom-card-2 gradient-back2-access" style={{ borderRadius: '18.3018px' }}>
 								<div style={{ background: 'transparent' }}>
 									<div className="float-left">
-										<h4
-											className="card-title text-light p-4"
-											style={{
-												marginBottom: '0px',
-												paddingBottom: '0px',
-												textAlign: width <= 576 ? 'left' : 'right',
-											}}
-										>
-											<strong
-												style={{
-													fontWeight: 800,
-													fontSize: width <= 576 ? '35px' : '25.8378px',
-												}}
-											>
-												Get Early Access to Ryze
+										<h4 className="card-title text-light p-4 ryze-early">
+											<strong className="get-early-access">
+												Get Early Access to <b className="break-mobile" /> Ryze
 												<span>
 													<img src={svg4} style={{ paddingBottom: '5px' }} />
 												</span>
 											</strong>
 										</h4>
 									</div>
-									{width <= 576 ? (
-										''
-									) : (
-										<div className="float-right" id="getearlylogo">
-											<h4
-												className="card-title text-light p-4"
-												style={{ marginBottom: 0, paddingBottom: 0 }}
-											>
-												<img src={logoWhite} alt="" />
-											</h4>
-										</div>
-									)}
+									<div className="float-right get-early-logo">
+										<h4
+											className="card-title text-light p-4"
+											style={{ marginBottom: 0, paddingBottom: 0 }}
+										>
+											<img src={logoWhite} alt="" />
+										</h4>
+									</div>
 								</div>
 
 								<div className="card-body" style={{ paddingTop: 0 }}>
 									<div className="row">
 										<div className="col-md-6">
-											<h4 className="text-light" style={{ textAlign: 'left', marginTop: 0 }}>
-												<small style={{ fontSize: '17px', lineHeight: '28px' }}>
-													We are slowly bringing on Bitcoiners who want to stack more sats!
+											<h4 className="text-light slowly-bitcoiner ">
+												<small>
+													We are slowly bringing on Bitcoiners <b className="break-mobile" />{' '}
+													who want to stack more sats!
 												</small>
 											</h4>
 											<br />
 											<div
 												className="input1-bottom p-2"
-												style={{ background: 'rgba(256, 256, 256, 0.2)' }}
 											>
 												<div className="row">
 													<div className="col-lg-6 col-8">
@@ -76,7 +60,7 @@ const Access = () => {
 													</div>
 													<div className="col-lg-6 col-4">
 														<div className="float-right">
-															<button className="btn btn-primary custom-btn2 custom-btn2input">
+															<button className="btn btn-primary custom-btn2-access custom-btn2input">
 																Join Now
 															</button>
 														</div>

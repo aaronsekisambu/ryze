@@ -1,3 +1,26 @@
 .gradient-back1 {
     background: linear-gradient(160.56deg, #fc6bff 4.44%, #881deb 102.37%);
 }
+
+.digital {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.we-bitcoin {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .digital {
+        line-height: 1.5;
+    }
+
+    .we-bitcoin {
+        font-size: 20px;
+        padding: 1rem;
+        line-height: 35px;
+    }
+}

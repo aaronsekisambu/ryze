@@ -13,7 +13,7 @@ const Deposit = () => {
 	const [width, height] = useWindowSize();
 	return (
 		<Fragment>
-			<section className={`${width <= 576 ? '' : 'pt-5 mx-3'} pb-5`}>
+			<section className="mobile-version-deposit pb-5">
 				<div className="row" style={{ marginRight: '0', marginLeft: '0' }}>
 					<div className="col-lg-1"></div>
 					<div className="col-lg-5 " style={{ overflowX: 'hidden' }}>

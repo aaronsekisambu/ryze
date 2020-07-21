@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import graph2 from '../../Assets/img/graph2.svg';
+import graph from '../../Assets/img/graph.svg';
 import exit from '../../Assets/img/exit.svg';
 import card from '../../Assets/img/card.svg';
 import money from '../../Assets/img/money.svg';
@@ -15,7 +16,7 @@ const Performance = () => {
 						<div className="col-md-2 col-sm-0"></div>
 
 						<div className="col-md-8 col-sm-12">
-							<div className="card custom-card-2 ">
+							<div className="card custom-card-2-performance ">
 								<div className="card-header" style={{ background: 'transparent' }}>
 									<div className="d-flex flex-row justify-content-between">
 										<h4 className="card-title my-3">
@@ -25,6 +26,7 @@ const Performance = () => {
 									</div>
 								</div>
 								<img className="card-img-top" src={graph2} alt="Card image" />
+								<img className="card-img-top-mobile" src={graph} alt="Card image" />
 								<div className="card-body" style={{ padding: 0 }}>
 									<div
 										className="container-fluid border-bottom w-100"
@@ -55,16 +57,8 @@ const Performance = () => {
 												<span className="date-number">28</span>
 											</div>
 										</div>
-										<div className="col-lg-8 col-sm-7 col-5  pt-1">
-											<div
-												style={{
-													textAlign: 'left',
-													fontSize: '10px',
-													position: 'relative',
-													top: '50%',
-													transform: 'translateY(-50%)',
-												}}
-											>
+										<div className="col-lg-8 col-sm-7 col-5  pt-1 performance-proof">
+											<div className="after-performance">
 												<div className="d-flex flex-row">
 													<strong>Brought</strong>
 													<img src={card} alt="" className="card-img" />
@@ -111,16 +105,8 @@ const Performance = () => {
 												<span className="date-number">29</span>
 											</div>
 										</div>
-										<div className="col-lg-8 col-sm-7 col-5 pt-1">
-											<div
-												style={{
-													textAlign: 'left',
-													fontSize: '10px',
-													position: 'relative',
-													top: '50%',
-													transform: 'translateY(-50%)',
-												}}
-											>
+										<div className="col-lg-8 col-sm-7 col-5 pt-1 performance-proof">
+											<div className="after-performance">
 												<div className="d-flex flex-row">
 													<strong>Withdrawal</strong>
 													<img src={padlock} alt="" className="card-img" />
@@ -167,20 +153,13 @@ const Performance = () => {
 												<span className="date-number">30</span>
 											</div>
 										</div>
-										<div className="col-lg-8 col-sm-7 col-5">
-											<div
-												style={{
-													textAlign: 'left',
-													fontSize: '10px',
-													position: 'relative',
-													top: '50%',
-													transform: 'translateY(-50%)',
-												}}
-											>	<div className="d-flex flex-row">
+										<div className="col-lg-8 col-sm-7 col-5 performance-proof">
+											<div className="after-performance last">
+												{' '}
+												<div className="d-flex flex-row">
 													<strong>Weekly Deposit</strong>
 													<img src={money} alt="" className="card-img" />
 												</div>
-
 												<small
 													className="text-secondary"
 													style={{

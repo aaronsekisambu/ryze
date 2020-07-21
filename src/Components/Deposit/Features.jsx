@@ -6,11 +6,11 @@ const Features = () => {
 		<Fragment>
 			<div>
 				<div className="row mt-3">
-					<div className="col-2  col-md-3 pt-1 col-lg-1">
-						<img src={upArrow} alt="" className="float-right pt-1" />
+					<div className="col-2  col-md-3 col-sm-3 pt-1 col-lg-1">
+						<img src={upArrow} alt="" className="float-right pt-1 features-img" />
 					</div>
-					<div className="col-10 col-md-9 col-lg-11">
-						<h4 className="featurespara">
+					<div className="col-10 col-md-9 col-sm-9 col-lg-11">
+						<h4 className="features-para">
 							<small>
 								Set up<strong> recurring</strong> deposits, or invest just once. <br/> Its your choice.
 							</small>

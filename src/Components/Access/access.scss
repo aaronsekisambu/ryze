@@ -1,4 +1,4 @@
-.gradient-back2 {
+.gradient-back2-access {
     background-image: linear-gradient(to right, #881DEB, #FC6BFF);
 }
 
@@ -31,21 +31,89 @@ input[type="text"].big-dog::-webkit-input-placeholder {
     color: white;
 }
 
+.slowly-bitcoiners {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.get-early-access {
+    font-weight: 800;
+    font-size: 25.8378px
+}
+
+.ryze-early {
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    text-align: right;
+}
+
+.get-early-logo {
+    display: block;
+}
+
+.input1-bottom {
+    height: 70px;
+}
+
+.custom-btn2-access {
+    color: white;
+    border: none;
+    background: linear-gradient(213.5deg, #ee7add 29.4%, #881deb 118.81%);
+    border-radius: 7.53974px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.404px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.0053px;
+    width: 139.07px;
+    height: 49.43px;
+}
+
 
 @media (max-width: 768px) {
+    .get-early-access {
+        font-size: 38px;
+    }
+
+    .slowly-bitcoiner {
+        line-height: 1.5;
+        font-size: 26px;
+        padding: 0 2rem;
+        text-align: left;
+    }
+
+    .get-early-logo {
+        display: none;
+    }
+
+    .ryze-early {
+        text-align: left;
+        line-height: 1.2;
+        padding: 3rem !important;
+    }
 
     .input1-a {
         text-align: left;
     }
+
     .input1-bottom {
         height: 70px;
+        background: rgba(256, 256, 256, 0.2);
+        margin: 1.8rem;
+        border-radius: 6px;
     }
 
     .custom-btn2input {
         padding: 5px;
-        width: 120px;
-        height: 40px;
-        font-size: 16px;
+        width: 150px;
+        height: 54px;
+        font-size: 20px;
+    }
+
+    .gradient-back2-access {
+        background-image: linear-gradient(to bottom, #FC6BFF, #881DEB);
     }
 
 }
