@@ -98,6 +98,7 @@
 
 	&::placeholder {
 		font-size: 16px;
+		color: #494C55;
 	}
 }
 
@@ -129,8 +130,9 @@
 	}
 
 	.accumulate {
-		font-size: 80.04px;
+		font-size: 70.04px !important;
 		margin-top: .5rem;
+		line-height: 1.2;
 	}
 
 	.animate-deposit {
@@ -142,8 +144,8 @@
 	}
 
 	.deposit-every-week {
-		font-size: 26px;
-		line-height: 1.5;
+		font-size: 18px;
+		line-height: 2;
 	}
 
 	.input1 {
@@ -172,11 +174,12 @@
 			font-size: 20px;
 		}
 	}
+
 	.custom-btn2 {
 		width: 339.07px;
 		font-size: 28px;
 		height: 73.43px;
-		margin: 1rem  0 15rem !important;
+		margin: 1rem 0 15rem !important;
 	}
 }
 
@@ -184,7 +187,8 @@
 	.accumulate {
 		font-size: 60.04px;
 	}
-} 
+}
+
 @media(max-width: 2560px) {
 	.accumulate {
 		font-size: 80.04px;

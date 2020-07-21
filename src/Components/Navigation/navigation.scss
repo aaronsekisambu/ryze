@@ -78,8 +78,10 @@
 @media (max-width: 768px) {
     .navbar-toggler-icon {
         display: inline-block;
-        width: 3.5em;
+        width: 2em;
         height: 3.5em;
+        color: #881DEB;
+        background-image: url(../../Assets/img/humbergar.svg) !important;
     }
 
     .join-now {
@@ -90,7 +92,7 @@
         display: none;
     }
 
-    .ryze-log {
-        width: 50px;
+    .navbar-brand img {
+        width: 45px !important;
     }
 }

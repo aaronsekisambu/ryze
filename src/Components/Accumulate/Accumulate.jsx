@@ -17,7 +17,7 @@ const Accumulate = () => {
 					<div className="introducing">Introducing Ryze</div>
 					<div className="h3 accumulate py-3">
 						Accumulate <br className="break-mobile" /> Bitcoin <br className="break-web break-tabs break-XL" /> While{' '}
-						<br className="break-mobile" /> you
+						<br className="break-mobile" /> you 
 						<span className="change-word">
 							{' '}
 							<ReactTypingEffect text={['Sleep', 'Eat', 'Play', 'Relax']} speed={200} typingDelay={200} />
