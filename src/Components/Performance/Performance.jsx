@@ -82,6 +82,7 @@ const Performance = () => {
 													position: 'relative',
 													top: '50%',
 													transform: 'translateY(-50%)',
+													color: '#494C55'
 												}}
 											>
 												<strong>+ 0.1 BTC</strong>
@@ -130,6 +131,7 @@ const Performance = () => {
 													position: 'relative',
 													top: '50%',
 													transform: 'translateY(-50%)',
+													color: '#494C55'
 												}}
 											>
 												<strong>- 0.05 BTC</strong>
@@ -179,6 +181,7 @@ const Performance = () => {
 													position: 'relative',
 													top: '50%',
 													transform: 'translateY(-50%)',
+													color: '#494C55'
 												}}
 											>
 												<strong>+ 0.06 BTC</strong>
