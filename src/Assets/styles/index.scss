@@ -20,6 +20,7 @@ body {
     font-family: Inter;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 // code {
@@ -30,6 +31,7 @@ body {
 html {
     width: fit-content;
     background: white;
+    overflow-x: hidden;
 }
 
 // body {

@@ -31,7 +31,7 @@ const Accumulate = () => {
 							Ryze helps you stack sats and build your Bitcoin savings.
 						</p>
 					</small>
-					<div className="row justify-content-center" style={{ marginTop: '60px' }}>
+					<div className="row justify-content-center" style={{ marginTop: '30px' }}>
 						<div className="input1">
 							<div className="py-2 input-mobile">
 								<input type="text" className="input1-top" placeholder="> request access " />

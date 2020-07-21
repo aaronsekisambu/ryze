@@ -10,7 +10,7 @@ const Automatic = () => {
 	return (
 		<Fragment>
 			<section className="gradient-back-mobile pb-5">
-				<div className="container-fluid">
+				<div className="container">
 					<div className="text-center buy-dip-mobile">
 						<img src={bitcoinLogo} alt="" className="shadow-lg" />
 						<h3 className="mt-3 text-light buy-top">Buy the dip,</h3>
