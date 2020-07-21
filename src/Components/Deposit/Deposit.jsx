@@ -16,7 +16,7 @@ const Deposit = () => {
 			<section className="mobile-version-deposit pb-5">
 				<div className="row" style={{ marginRight: '0', marginLeft: '0' }}>
 					<div className="col-lg-1"></div>
-					<div className="col-lg-5 " style={{ overflowX: 'hidden' }}>
+					<div className="col-lg-5 clock-logo-features" style={{ overflowX: 'hidden' }}>
 						<div className="mobile-flex">
 							<img src={clockLogo} alt="" width="60" />
 							<h3 className="mt-3 invest" style={{ paddingTop: '15px' }}>
@@ -94,7 +94,7 @@ const Deposit = () => {
 															How often?
 														</small>
 													</div>
-													<div className="ml-5">
+													<div className="deposit-mobile-section">
 														<div className="btn-group btn-group-sm py-2">
 															<button
 																type="button"

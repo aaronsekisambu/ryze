@@ -13,6 +13,7 @@
     border-radius: 200px;
     margin-top: 3px
 }
+
 .custom-card-2-performance {
     box-shadow: 0 1rem 3rem rgba(212, 83, 255, 0.25) !important;
     border: none !important;
@@ -47,7 +48,7 @@
 
 .after-performance {
     position: absolute;
-    margin-top: 1.2rem;
+    margin: 1.7rem;
 }
 
 @media (max-width: 768px) {
@@ -55,8 +56,22 @@
         display: none;
     }
 
+    .rounded-cir1 {
+        margin-top: 1rem;
+    }
+
     .performance-proof {
         font-size: 15px;
+        transform: none;
+    }
+
+    .after-performance {
+        position: inherit;
+        margin: 0;
+    }
+
+    .after-performance small {
+        font-size: 10px;
     }
 
     .last {

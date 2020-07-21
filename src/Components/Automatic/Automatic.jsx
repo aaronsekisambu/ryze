@@ -20,7 +20,7 @@ const Automatic = () => {
 					</div>
 					<div className="row flex-wrap">
 						<div className="col-12 col-lg-7 col-sm-7 col-md-7">
-							<img className="performance" src={performance} alt="" />
+							<img className="performance perform-big" src={performance} alt="" />
 							<img className="performance-mobile" src={performanceMobile} alt="" />
 						</div>
 						<div className="col-12 col-lg-5 col-sm-5 col-md-5 stats-tats-mobile">
