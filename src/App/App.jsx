@@ -19,8 +19,8 @@ function App() {
 	`;
 	useEffect(() => {
 		setTimeout(() => {
-			setLoading(true);
-			setLoad(true);
+			setLoading(false);
+			setLoad(false);
 		}, 2000);
 		TweenMax.to(site, 2, { opacity: 1, ease: Power3.easeInOut, delay: 2 });
 	}, []);
