@@ -23,17 +23,19 @@
     font-style: normal;
     font-weight: normal;
     padding: 10px 0;
-    font-size: 16px;
-    line-height: 129.52%;
+    font-size: 14px;
     text-align: center;
     margin-top: 1rem;
-    letter-spacing: 2.08214px;
     background: linear-gradient(180.96deg,
             #ff35e173 40%,
             #871deb77 87%,
         );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.custom-learn-more span:hover {
+    color: #881DEB;
 }
 
 .custom-learn-more:hover {

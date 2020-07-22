@@ -39,18 +39,33 @@ const Navigation = () => {
 						>
 							<ul className={`navbar-nav ${width <= 576 ? 'my-3' : 'ml-auto'}`}>
 								<li className="nav-item nav-item-pad pr-5">
-									<a className="nav-link" href="#" style={{ fontSize: width <= 576 ? '25px' : '' }}>
+									<a
+										className="nav-link"
+										href="https://ryze.substack.com/p/our-methodology"
+										target="_blank"
+										style={{ fontSize: width <= 576 ? '25px' : '' }}
+									>
 										How it Works
 									</a>
 								</li>
 
 								<li className="nav-item nav-item-pad pr-5">
-									<a className="nav-link" href="#" style={{ fontSize: width <= 576 ? '25px' : '' }}>
+									<a
+										className="nav-link"
+										href="https://ryze.substack.com/"
+										target="_blank"
+										style={{ fontSize: width <= 576 ? '25px' : '' }}
+									>
 										Blog
 									</a>
 								</li>
 								<li className="nav-item nav-item-pad pr-5">
-									<a className="nav-link" href="#" style={{ fontSize: width <= 576 ? '25px' : '' }}>
+									<a
+										className="nav-link"
+										href="https://joinryze.zendesk.com/hc/en-us"
+										target="_blank"
+										style={{ fontSize: width <= 576 ? '25px' : '' }}
+									>
 										FAQs
 									</a>
 								</li>
@@ -60,9 +75,9 @@ const Navigation = () => {
 									</button>
 								</li>
 							</ul>
-							<button type="button" className="btn btn-outline-primary join-now custom-btn">
+							{/* <button type="button" className="btn btn-outline-primary join-now custom-btn">
 								Join Now
-							</button>
+							</button> */}
 						</div>
 					</div>
 				</nav>

@@ -84,6 +84,16 @@
 	flex-wrap: nowrap;
 }
 
+.email-mobile {
+	// display: none;
+}
+
+.email-web {
+	// display: block;
+	opacity: 0;
+	transform: translateY(200px);
+	transform: translateX(50px);
+}
 
 
 .input1-top {
@@ -129,6 +139,21 @@
 		display: block;
 	}
 
+	.email-web-anim {
+		height: 27rem !important;
+	}
+
+	.email-mobile {
+		// display: block;
+		opacity: 0;
+		transform: translateY(200px);
+		transform: translateX(50px);
+	}
+
+	.email-web {
+		// display: none;
+	}
+
 	.accumulate {
 		font-size: 70.04px !important;
 		margin-top: .5rem;
@@ -146,6 +171,12 @@
 	.deposit-every-week {
 		font-size: 18px;
 		line-height: 2;
+	}
+
+	.input-animation {
+		opacity: 0;
+		transform: translateY(200px);
+		transform: translateX(50px);
 	}
 
 	.input1 {

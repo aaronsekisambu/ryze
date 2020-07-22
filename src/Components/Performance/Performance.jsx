@@ -81,7 +81,6 @@ const Performance = () => {
 													textAlign: 'right',
 													fontSize: '10px',
 													position: 'relative',
-													top: '50%',
 													transform: 'translateY(-50%)',
 													color: '#494C55'
 												}}
@@ -131,7 +130,6 @@ const Performance = () => {
 													textAlign: 'right',
 													fontSize: '10px',
 													position: 'relative',
-													top: '50%',
 													transform: 'translateY(-50%)',
 													color: '#494C55'
 												}}
@@ -182,7 +180,6 @@ const Performance = () => {
 													textAlign: 'right',
 													fontSize: '10px',
 													position: 'relative',
-													top: '50%',
 													transform: 'translateY(-50%)',
 													color: '#494C55'
 												}}

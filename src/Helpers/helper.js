@@ -16,3 +16,9 @@ export const useWindowSize = () => {
     }, []);
     return size;
 }
+
+
+export const validateEmail = (mail) => {
+    const valid = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+    return valid.test(mail)
+}

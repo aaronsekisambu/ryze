@@ -43,6 +43,12 @@
     border-radius: 24.0471px;
 }
 
+.custom-btn5:hover {
+    background: #881DEB;
+    color: white;
+    border-color: #fd8bff;
+}
+
 .buy-dip-mobile {
     display: none;
     font-size: 30px;
@@ -70,6 +76,11 @@
     margin: .8rem 0;
     padding-top: 4.5rem;
     font-size: 25px;
+    width: 50% !important;
+}
+
+.image-side {
+    width: 50% !important;
 }
 
 .stack-stats-below {
@@ -131,6 +142,11 @@
         padding: 2rem;
         font-size: 25px;
         text-align: center;
+        width: 100% !important;
+    }
+
+    .image-side {
+        width: 100% !important;
     }
 
     .stack-stats {
@@ -146,20 +162,98 @@
         line-height: 2;
     }
 
+    .learn-more-automatic {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .learn-more-automatic button {
+        // height: 20px;
+    }
+
     .buy {
         font-weight: 800 !important;
     }
 
     .buy-dip {
-        font-weight: 800 !important;
+        font-weight: 500 !important;
     }
 
     .stats-tats-mobile {
-        margin: 1.8rem 0;
+        margin: 0;
     }
 
     .perform-big {
         margin-left: -11rem;
+        width: 130%;
 
+    }
+}
+
+@media (min-width: 786px) {
+    .perform-big {
+        margin-left: -11rem;
+        width: 114%;
+
+    }
+
+    .perform-big {
+        margin-left: -7rem;
+        width: 130%;
+
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .perform-big {
+        // margin-left: -11rem;
+        width: 114%;
+
+    }
+
+    .perform-big {
+        margin-left: -7rem;
+        width: 130%;
+
+    }
+
+
+}
+
+@media (max-width: 1440px) {
+    .perform-big {
+        margin-left: -13rem;
+        width: 150%;
+    }
+
+    .buy {
+        font-size: 40px;
+        padding: 0 1rem;
+    }
+
+    .custom-btn5 {
+        margin: 0 1rem;
+    }
+
+    .stack-stats {
+        font-size: 18px;
+        line-height: 1.7;
+        font-weight: 400;
+        margin: 0;
+        padding: 0 1rem;
+    }
+
+    .perform-bitcoin {
+        margin: 2.5rem 1rem 0;
+        width: 10%;
+    }
+
+    .stack-stats-below {
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 0 1rem;
     }
 }

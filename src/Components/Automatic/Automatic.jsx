@@ -18,14 +18,14 @@ const Automatic = () => {
 							<strong>Automatically</strong>
 						</h3>
 					</div>
-					<div className="row flex-wrap">
-						<div className="col-12 col-lg-7 col-sm-7 col-md-7">
+					<div className="d-flex flex-row justify-content-between flex-wrap">
+						<div className="image-side">
 							<img className="performance perform-big" src={performance} alt="" />
 							<img className="performance-mobile" src={performanceMobile} alt="" />
 						</div>
-						<div className="col-12 col-lg-5 col-sm-5 col-md-5 stats-tats-mobile">
+						<div className="stats-tats-mobile">
 							<div>
-								<img src={bitcoinLogo} alt="" className="performance" />
+								<img src={bitcoinLogo} alt="" className="performance perform-bitcoin" />
 								<div className="mt-3 text-light buy buy-dip">Buy the dip,</div>
 								<h3 className="text-light buy">
 									<strong>Automatically</strong>
@@ -36,15 +36,15 @@ const Automatic = () => {
 								Its like DCA, but <strong>smarter.</strong>
 							</h4>
 							<h4
-								className="mt-3 text-light mr-5 stack-stats-below"
+								className="mt-3 text-light stack-stats-below"
 						
 							>
 								Investing <strong>$25</strong> a week for the last 2.5 years through Ryze turned{' '}
 								<strong>$3,175</strong> into
 								<strong> $5,205.</strong>
 							</h4>
-							<div className={`my-4 ${width <= 576 ? 'd-flex flex-row justify-content-center' : ''} `}>
-								<button className="btn btn-outline-warning custom-btn5" style={{ width: '146px' }}>
+							<div className="my-4 learn-more-automatic">
+								<button className="btn btn-outline-warning custom-btn5" style={{ width: '140px' }}>
 									Learn More
 								</button>
 							</div>

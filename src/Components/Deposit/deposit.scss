@@ -5,9 +5,13 @@
 }
 
 .custom-btn-category {
-    padding: 1rem !important;
     background: linear-gradient(180deg, rgba(255, 53, 226, 0.15) 0%, rgba(136, 29, 235, 0.15) 100%);
 
+}
+
+.btn-custom {
+    padding: 1.2rem !important;
+    font-size: 17px !important;
 }
 
 
@@ -46,7 +50,7 @@
     border: none;
     border-bottom: 2px solid #c1c3c5;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px !important;
     font-weight: 600;
     color: #c1c3c5;
     background-color: transparent;
@@ -54,24 +58,56 @@
 
     &::placeholder {
         color: #E5E5E5;
-        font-size: 85.44px;
+        font-size: 65.44px;
     }
 }
 
 .input2:focus {
     outline: none;
+    font-weight: 800;
 }
 
 .invest {
     font-size: 38.85px;
     line-height: 1.5;
+    font-weight: 800;
+    color: #494C55;
+}
+
+.invest-little {
+    font-weight: 500;
+}
+
+.card-deposit {
+    border-radius: 12px;
 }
 
 .custom-monthly:hover {
-    background: #eea1ff;
-    border-radius: 6px;
+    background: none;
+    border-radius: 12px !important;
     border-color: none;
 }
+
+.custom-monthly {
+    border-radius: 12px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-color: none;
+}
+
+.custom-bi-weekly:hover {
+    background: none;
+    border-radius: 12px !important;
+    border-color: none;
+}
+
+.custom-weekly {
+    border-radius: 12px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-color: none;
+}
+
 
 .custom-card-2 {
     box-shadow: 0 1rem 3rem rgba(212, 83, 255, 0.25) !important;
@@ -101,7 +137,11 @@
 }
 
 .deposit-mobile-section {
-    margin: 0 auto;
+    // margin: 0 auto;
+}
+
+.chase-bank {
+    margin-left: 3rem !important;
 }
 
 .mobile-flex {
@@ -111,14 +151,19 @@
     margin-top: 3rem;
 }
 
+.btn-block {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 @media (max-width: 400px) {
     #depositmobile {
         display: block;
     }
-
-
-
 
     #deposit {
         padding-top: 0;
@@ -135,6 +180,15 @@
         font-size: 18.5px;
         line-height: 35px;
         color: #494C55;
+    }
+
+    .deposit-img img {
+        width: 100%;
+    }
+
+    .btn-custom {
+        padding: 1rem !important;
+        font-size: 10px !important;
     }
 
     .btn-block {
@@ -156,7 +210,7 @@
     }
 
     .chase-bank {
-        margin-left: 1rem;
+        margin-left: 1.8rem;
     }
 
     .mobile-features {
@@ -192,7 +246,7 @@
     .mobile-flex {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center !important;
         margin-top: 3rem;
 
         img {
@@ -210,9 +264,83 @@
 }
 
 @media (min-width: 1024px) {
+    #deposit {
+        padding: 50px 0 0 0 !important;
+    }
+
     .custom-weekly,
     .custom-bi-weekly,
     .custom-monthly {
         border: .5px solid rgb(238, 238, 238);
     }
+}
+
+@media (max-width: 1024px) {
+
+    .mobile-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 3rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .mobile-flex {
+        align-items: center !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #deposit {
+        padding: 50px 0 0 0 !important;
+    }
+
+    .btn-custom {
+        padding: .6rem !important;
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 1440px) and (min-width: 768px) {
+    .btn-custom {
+        padding: 1.2rem !important;
+        font-size: 18px !important;
+    }
+
+    .mobile-flex {
+
+        img {
+            width: 10% !important;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-flex {
+        align-items: flex-start;
+
+        img {
+            width: 18%;
+        }
+    }
+}
+// working on 24in
+@media (min-width: 1920px) {
+    .btn-custom {
+        padding: 1.2rem !important;
+        font-size: 15px !important;
+    }
+
+    .deposit {
+        width: 50%;
+    }
+
+    .mobile-flex img {
+        width: 7%;
+    }
+
 }

@@ -5,6 +5,7 @@ import Home from '../Components/Home/Home';
 import Navigation from '../Components/Navigation/Navigation';
 import { css } from '@emotion/core';
 import BounceLoader from 'react-spinners/BounceLoader';
+import { FirebaseDatabaseProvider } from '@react-firebase/database';
 
 import { TweenMax, Power3 } from 'gsap';
 import { useWindowSize } from '../Helpers/helper';
@@ -26,17 +27,19 @@ function App() {
 	}, []);
 	return (
 		<Fragment>
-			<div className="whole-site" style={{ display: loading ? 'none' : 'block' }} ref={(el) => (site = el)}>
-				<BrowserRouter>
-					<Navigation />
-					<Switch>
-						<Route exact path="/" component={Home} />
-					</Switch>
-				</BrowserRouter>
-			</div>
-			<div className="center-block" style={{ display: loading ? 'flex' : 'none' }}>
-				<BounceLoader css={override} size={width <= 768 ? 20 : 50} color={'#881DEB'} loading={load} />
-			</div>
+			<FirebaseDatabaseProvider>
+				<div className="whole-site" style={{ display: loading ? 'none' : 'block' }} ref={(el) => (site = el)}>
+					<BrowserRouter>
+						<Navigation />
+						<Switch>
+							<Route exact path="/" component={Home} />
+						</Switch>
+					</BrowserRouter>
+				</div>
+				<div className="center-block" style={{ display: loading ? 'flex' : 'none' }}>
+					<BounceLoader css={override} size={width <= 768 ? 20 : 50} color={'#881DEB'} loading={load} />
+				</div>
+			</FirebaseDatabaseProvider>
 		</Fragment>
 	);
 }

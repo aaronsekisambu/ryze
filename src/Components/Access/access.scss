@@ -27,7 +27,7 @@
     border: 0px solid red;
 }
 
-input[type="text"].big-dog::-webkit-input-placeholder {
+input[type="email"].big-dog::-webkit-input-placeholder {
     color: white;
 }
 
@@ -107,6 +107,9 @@ input[type="text"].big-dog::-webkit-input-placeholder {
 
     .input1-a {
         text-align: left;
+        &::placeholder {
+            color: white !important;
+        }
     }
 
     .input1-bottom {

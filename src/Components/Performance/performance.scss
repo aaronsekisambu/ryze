@@ -61,7 +61,7 @@
     }
 
     .rounded-cir1 {
-        margin-top: 1rem;
+        margin-top: .2rem;
     }
 
     .performance-proof {
@@ -107,3 +107,15 @@
         transform: translateY(23%) !important;
     }
 }
+
+@media (max-width: 992px) {
+    .side-performance {
+        transform: translateY(23%) !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .side-performance {
+        transform: translateY(23%) !important;
+    }
+    }

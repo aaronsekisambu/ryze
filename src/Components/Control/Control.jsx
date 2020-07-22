@@ -20,11 +20,10 @@ const Control = () => {
 								<div className="col-md-2 col-sm-0"></div>
 								<div className="col-md-8 col-sm-12">
 									<h4 className="mt-3">
-										<small
-										className="invest-in-bitcoin"
-										>
-											Investing in Bitcfoin can be a rollercoaster. <b className="break-mobile" /> Let Ryze smooth the ride for
-											you by helping you <b className="break-mobile" /> accumulate Bitfcoin over time.
+										<small className="invest-in-bitcoin">
+											One place to keep track of your sats and make seamless deposits and
+											withdrawals. <b className="break-mobile" /> All while keeping your Bitcoin{' '}
+											<b className="break-mobile" /> <strong> secure, </strong> <strong> offline, </strong> and in  <strong> your control.  </strong>
 										</small>
 									</h4>
 								</div>
@@ -35,7 +34,10 @@ const Control = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="mt-3">
-								<button type="button" className="btn btn-outline-primary custom-btn01 custom-learn-more">
+								<button
+									type="button"
+									className="btn btn-outline-primary custom-btn01 custom-learn-more"
+								>
 									<span>Learn More</span>
 								</button>
 							</div>

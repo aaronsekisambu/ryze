@@ -20,9 +20,9 @@ const Deposit = () => {
 						<div className="mobile-flex">
 							<img src={clockLogo} alt="" width="60" />
 							<h3 className="mt-3 invest" style={{ paddingTop: '15px' }}>
-								<strong>Invest at your own pace.</strong>
+								<span style={{ fontWeight: '800 !important' }}>Invest at your own pace.</span>
 							</h3>
-							<h3 className="pb-3 invest">With a little as $10</h3>
+							<h3 className="pb-3 invest invest-little">With a little as $10</h3>
 						</div>
 						<div className="features">
 							<Features />
@@ -33,7 +33,7 @@ const Deposit = () => {
 						<div className="div" id="deposit">
 							<div className="container deposit-mobile">
 								<div className="row" id="depositmobile" style={{ height: '240px' }}>
-									<div className="col-6 float-left">
+									<div className="col-6 float-left deposit-img">
 										<div className="float-left" style={{ padding: '30px 0 0 15px' }}>
 											<img src={whiteLogo} alt="" width="20" />
 										</div>
@@ -74,9 +74,9 @@ const Deposit = () => {
 											How Much?
 										</p>
 
-										<div className="card">
-											<div className="card-body" style={{ padding: '.4rem 1.25rem' }}>
-												<div className="row justify-content-round">
+										<div className="card card-deposit">
+											<div className="card-body" style={{ padding: '.4rem 0.8rem' }}>
+												<div className="d-flex flex-row justify-content-between">
 													<div className="d-flex flex-column ml-2">
 														<div
 															className="shadow-sm"
@@ -98,21 +98,21 @@ const Deposit = () => {
 														<div className="btn-group btn-group-sm py-2">
 															<button
 																type="button"
-																className="btn  custom-btn-category p-2  custom-weekly ml-1 text-dark"
+																className="btn  custom-btn-category p-2 btn-custom rounded custom-weekly ml-1 text-dark"
 																style={{ color: '#494C55' }}
 															>
 																Weekly
 															</button>
 															<button
 																type="button"
-																className="btn btn-outline-light text-dark  custom-bi-weekly custom-btn4 custom-btn6"
+																className="btn btn-outline-light text-dark btn-custom rounded-right custom-bi-weekly custom-btn4 custom-btn6"
 																style={{ color: '#494C55' }}
 															>
 																Bi-Weekly
 															</button>
 															<button
 																type="button"
-																className="btn btn-outline-light text-dark mr-1 custom-monthly px-2 custom-btn6"
+																className="btn btn-outline-light text-dark btn-custom rounded-right mr-1 custom-monthly px-2 custom-btn6"
 																style={{
 																	padding: '0',
 																	color: '#494C55',
@@ -127,7 +127,7 @@ const Deposit = () => {
 											</div>
 										</div>
 
-										<div className="card" style={{ marginTop: '35px' }}>
+										<div className="card card-deposit" style={{ marginTop: '35px' }}>
 											<div className="card-body" style={{ padding: '.4rem 1.25rem' }}>
 												<div className="row">
 													<div className="d-flex flex-column ml-2">

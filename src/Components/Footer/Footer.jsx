@@ -16,13 +16,13 @@ export const Footer = () => {
 
 						<ul className="navbar-nav">
 							<li className="nav-item nav-item-pad">
-								<a className="nav-link" href="#">
+								<a className="nav-link" href="https://twitter.com/joinryze" target="_blank">
 									Twitter
 								</a>
 							</li>
 
 							<li className="nav-item nav-item-pad">
-								<a className="nav-link" href="#">
+								<a className="nav-link" href="https://medium.com/ryze-crypto-digest" target="_blank">
 									Medium
 								</a>
 							</li>
@@ -37,7 +37,11 @@ export const Footer = () => {
 								</a>
 							</li>
 							<li className="nav-item nav-item-pad">
-								<a className="nav-link" href="#">
+								<a
+									className="nav-link"
+									href="https://docs.google.com/document/d/1uXEYA0LGbgyN0Os-7G0xoeIVA5srMLyI831SJucmjFM/edit?usp=sharing"
+									target="_blank"
+								>
 									Privacy
 								</a>
 							</li>
@@ -49,7 +53,7 @@ export const Footer = () => {
 			<section className="phone_footer-mobile">
 				<nav
 					className="navbar navbar-expand-sm navbar-light justify-content-center"
-					style={{ backgroundColor: 'white' }}
+					style={{ backgroundColor: 'white', marginLeft: '2rem' }}
 				>
 					<ul className="navbar-nav">
 						<li className="nav-item nav-item-pad">
