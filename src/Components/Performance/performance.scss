@@ -93,3 +93,17 @@
         margin: 0 1rem;
     }
 }
+
+@media (min-width: 1024px) {
+    .card-img {
+        width: 13.3%;
+    }
+
+    .after-performance strong {
+        font-size: 12.5px;
+    }
+
+    .side-performance {
+        transform: translateY(23%) !important;
+    }
+}

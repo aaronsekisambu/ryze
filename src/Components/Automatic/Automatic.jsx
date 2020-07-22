@@ -26,18 +26,18 @@ const Automatic = () => {
 						<div className="col-12 col-lg-5 col-sm-5 col-md-5 stats-tats-mobile">
 							<div>
 								<img src={bitcoinLogo} alt="" className="performance" />
-								<div className="mt-3 text-light buy">Buy the dip,</div>
+								<div className="mt-3 text-light buy buy-dip">Buy the dip,</div>
 								<h3 className="text-light buy">
 									<strong>Automatically</strong>
 								</h3>
 							</div>
-							<h4 className="text-light mr-5 pr-3 stack-stats">
+							<h4 className="text-light stack-stats">
 								Stack sats automatically when Bitcoin is on sale. Never worry about timing buys again.
 								Its like DCA, but <strong>smarter.</strong>
 							</h4>
 							<h4
-								className="mt-3 text-light mr-5"
-								style={{ fontSize: '18px', lineHeight: '35px', fontWeight: 400 }}
+								className="mt-3 text-light mr-5 stack-stats-below"
+						
 							>
 								Investing <strong>$25</strong> a week for the last 2.5 years through Ryze turned{' '}
 								<strong>$3,175</strong> into

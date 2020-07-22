@@ -35,8 +35,8 @@ const Control = () => {
 					<div className="row">
 						<div className="col-12">
 							<div className="mt-3">
-								<button type="button" className="btn btn-outline-primary custom-btn01">
-									Learn More
+								<button type="button" className="btn btn-outline-primary custom-btn01 custom-learn-more">
+									<span>Learn More</span>
 								</button>
 							</div>
 						</div>

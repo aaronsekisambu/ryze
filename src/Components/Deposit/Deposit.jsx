@@ -59,7 +59,7 @@ const Deposit = () => {
 										<h4 className="card-title">
 											<strong>Deposit</strong>
 										</h4>
-										<img src={exit} alt="" style={{ width: '7%', marginTop: '-30px' }} />
+										<img src={exit} alt="" style={{ width: '8%', marginTop: '-12px' }} />
 									</div>
 									<div className="text-center">
 										<input type="text" className="input2" placeholder="$25" />
@@ -98,7 +98,7 @@ const Deposit = () => {
 														<div className="btn-group btn-group-sm py-2">
 															<button
 																type="button"
-																className="btn custom-btn-category p-2  custom-weekly ml-1 text-dark"
+																className="btn  custom-btn-category p-2  custom-weekly ml-1 text-dark"
 																style={{ color: '#494C55' }}
 															>
 																Weekly
@@ -148,7 +148,7 @@ const Deposit = () => {
 															From where?
 														</small>
 													</div>
-													<div className="p-2 mx-5">
+													<div className="p-2 chase-bank">
 														<p
 															style={{
 																fontWeight: '600',

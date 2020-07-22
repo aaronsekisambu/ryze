@@ -60,9 +60,10 @@
 
 .stack-stats {
     font-size: 18px;
-    line-height: 35px;
+    line-height: 1.5;
     font-weight: 400;
-    margin-top: 1rem;
+    margin: 1rem auto 0;
+
 }
 
 .stats-tats-mobile {
@@ -71,6 +72,11 @@
     font-size: 25px;
 }
 
+.stack-stats-below {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400
+}
 
 
 @media (max-width: 768px) {
@@ -93,6 +99,7 @@
     .performance-mobile {
         display: block;
         margin-left: .5rem !important;
+        box-shadow: 0 1rem 3rem rgba(212, 83, 255, 0.25) !important;
     }
 
     .performance {
@@ -107,6 +114,12 @@
         font-size: 45px;
         padding: 1.5rem 0 0;
 
+    }
+
+    .buy-big strong {
+        font-weight: 800 !important;
+        font-size: 55px;
+        line-height: 2;
     }
 
     .shadow-lg {
@@ -126,12 +139,27 @@
 }
 
 @media (min-width: 1024px) {
+
+    .stack-stats,
+    .stack-stats-below {
+        font-size: 16px;
+        line-height: 2;
+    }
+
+    .buy {
+        font-weight: 800 !important;
+    }
+
+    .buy-dip {
+        font-weight: 800 !important;
+    }
+
+    .stats-tats-mobile {
+        margin: 1.8rem 0;
+    }
+
     .perform-big {
-        width: 115%;
-        // height: 800px;
-        // margin: 0 !important;
-        // padding: 0 !important;
-        margin-left: -1rem;
+        margin-left: -11rem;
 
     }
 }

@@ -64,6 +64,7 @@
 
 .invest {
     font-size: 38.85px;
+    line-height: 1.5;
 }
 
 .custom-monthly:hover {
@@ -98,9 +99,11 @@
     margin-bottom: 0px;
     font-size: 10px;
 }
+
 .deposit-mobile-section {
     margin: 0 auto;
 }
+
 .mobile-flex {
     display: flex;
     flex-direction: column;
@@ -136,6 +139,8 @@
 
     .btn-block {
         margin: 0 !important;
+        font-size: 20.5px;
+        font-weight: 600;
     }
 
     .features {
@@ -148,6 +153,10 @@
 
     .zee-fee {
         display: block;
+    }
+
+    .chase-bank {
+        margin-left: 1rem;
     }
 
     .mobile-features {
@@ -197,5 +206,13 @@
 
     .features-para {
         padding-top: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .custom-weekly,
+    .custom-bi-weekly,
+    .custom-monthly {
+        border: .5px solid rgb(238, 238, 238);
     }
 }

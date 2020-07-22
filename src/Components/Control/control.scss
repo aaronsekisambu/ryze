@@ -1,33 +1,61 @@
-.custom-btn01 {
-    border-radius: 100px;
+.custom-learn-more {
     padding-left: 30px;
     padding-right: 30px;
-    padding: 7px 27px;
+    padding: 12px 27px;
     font-size: 13.2639px;
     line-height: 16px;
     text-align: center;
     letter-spacing: 0.994796px;
     font-weight: 500;
     color: rgba(0, 0, 0, .5);
-    margin-top: -2px;
-    position: relative;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+        linear-gradient(to right, #EE7ADD, #881DEB) border-box;
+    color: #881DEB;
+    text-align: center;
+    line-height: 12px;
     border: 1px solid transparent;
-    background: #ffffff;
-    background-clip: padding-box;
-
-    &::after {
-        position: absolute;
-        top: -1px;
-        bottom: -1px;
-        left: -1px;
-        right: -1px;
-        background: linear-gradient(45deg, #EE7ADD, #881DEB);
-        content: '';
-        z-index: -1;
-        border-radius: 100px;
-    }
-
+    border-radius: 200px;
+    margin-top: 3px
 }
+
+.custom-learn-more span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    padding: 10px 0;
+    font-size: 16px;
+    line-height: 129.52%;
+    text-align: center;
+    margin-top: 1rem;
+    letter-spacing: 2.08214px;
+    background: linear-gradient(180.96deg,
+            #ff35e173 40%,
+            #871deb77 87%,
+        );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.custom-learn-more:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 12px 27px;
+    font-size: 13.2639px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.994796px;
+    font-weight: 500;
+    color: #881DEB;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box,
+        linear-gradient(to right, #EE7ADD, #881DEB) border-box;
+    color: #494C55;
+    text-align: center;
+    line-height: 12px;
+    border: 1px solid transparent;
+    border-radius: 200px;
+    margin-top: 3px
+}
+
 
 .wallet-img {
     width: 70px;
@@ -35,7 +63,6 @@
 
 .stayincontrol h2 {
     font-size: 50px;
-    line-height: 1.8;
     color: #494C55;
 }
 

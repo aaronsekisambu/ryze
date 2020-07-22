@@ -76,6 +76,7 @@ const Performance = () => {
 										</div>
 										<div className="col-lg-3 col-sm-3 col-4">
 											<div
+												className="side-performance"
 												style={{
 													textAlign: 'right',
 													fontSize: '10px',
@@ -125,6 +126,7 @@ const Performance = () => {
 										</div>
 										<div className="col-lg-3 col-sm-3 col-4">
 											<div
+												className="side-performance"
 												style={{
 													textAlign: 'right',
 													fontSize: '10px',
@@ -175,6 +177,7 @@ const Performance = () => {
 										</div>
 										<div className="col-lg-3 col-sm-3 col-4">
 											<div
+												className="side-performance"
 												style={{
 													textAlign: 'right',
 													fontSize: '10px',
